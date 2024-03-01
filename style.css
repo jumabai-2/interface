@@ -1,0 +1,38 @@
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    background: white;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+   display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+th {
+    font-weight: normal;
+    color: #039;
+    border-bottom: 2px solid #6678b1;
+    padding:0 150px 0 8px;
+
+}
+
+td {
+    color: #669;
+    transition: .2s linear;
+    padding:9px 100px 8px 8px;
+}
+
+tr:hover td {
+    color: #6699ff;
+}
+.search input{
+}
+
